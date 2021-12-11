@@ -1,5 +1,4 @@
 import sys
-from collections import deque
 
 positions = list(map(int, sys.stdin.readline().strip().split(",")))
 maxPosition = max(positions)
